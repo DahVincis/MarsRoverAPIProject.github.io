@@ -1,0 +1,72 @@
+body {
+    background-image: url('original123.jpg');
+    margin-top: 210px;
+    user-select: none; 
+   -webkit-user-select: none; 
+   -khtml-user-select: none; 
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: rgb(173, 77, 33);
+}
+h1.login-title {
+    color: rgb(0, 0, 0);
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline:rgb(0, 0, 0);
+}
+.login-button:hover{
+    background-image: url('original2.gif');
+    image-resolution: 720;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.login-button {
+    color: #fff;
+    background: #02035a;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+.link {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: rgb(0, 0, 0);
+}
+.h3 {
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p{
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
